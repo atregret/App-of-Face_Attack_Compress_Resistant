@@ -4,6 +4,8 @@
 ```
 npm install
 ```
+npm i bootstrap@3 -S
+
 
 ### Compiles and hot-reloads for development
 ```

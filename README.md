@@ -4,17 +4,17 @@
 ```
 npm install
 ```
-### 为Vue项目添加Bootstrap（这样包含的CSS和JS，但其实我想要的是CSS？）
+### 为Vue项目添加Bootstrap
 npm i bootstrap@3 -S
 npm i jquery -S
 npm i popper.js -S
 
-### Compiles and hot-reloads for development
+### 运行Vue项目
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 打包Vue项目
 ```
 npm run build
 ```

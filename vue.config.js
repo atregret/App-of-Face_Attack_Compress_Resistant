@@ -19,5 +19,11 @@ module.exports = {
     ],
   },
   publicPath: './',
+  productionSourceMap: false,
+  devServer: {
+    historyApiFallback: true,
+    port:80,
+    allowedHosts: "all",
+  },
 };
 

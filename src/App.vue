@@ -5,7 +5,6 @@
 </template>
 
 <script>
-//import HelloWorld from './components/HelloWorld.vue'
 import MuBan from './components/MuBan.vue'
 export default {
   name: 'App',
@@ -14,9 +13,6 @@ export default {
   },
   data() {
     return {
-      imgurl: '',
-      file: '',
-      path:''
     }
   },
   methods: {
@@ -28,13 +24,9 @@ export default {
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  
-  background-color: gray;
-  width: 80%;
-  height: 80%;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  width: 100%;
+  height: 100%;
 
+  color: #2c3e50;
 }
 </style>
